@@ -96,3 +96,36 @@ body {
     height: auto;
     max-width: 80px; /* Max leveys, jotta kuva ei mene liian suureksi */
   }
+
+  .carousel-caption h5 {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-caption h5 {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carousel-caption h5 {
+      font-size: 1.2rem;
+    }
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  @media (max-width: 768px) {
+    .carousel-caption p {
+      font-size: 0.9rem;
+    }
+  }
+
+  .caption-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
